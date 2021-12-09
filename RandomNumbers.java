@@ -2,6 +2,6 @@ package AndrLess;
 
 public interface RandomNumbers {
 
-    int randomNumber();
+    int numberOfRandomDigits();
     void printingNumbers(int amtNumbers);
 }

@@ -1,14 +1,17 @@
 package AndrLess;
 
 import java.util.Random;
+import java.util.Scanner;
 
 public class Rand implements  RandomNumbers{
 
 
     @Override
-    public int randomNumber() {
-        Random myRandom = new Random();
-        int number = myRandom.nextInt(10);
+    public int numberOfRandomDigits() {
+
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Please enter a number.");
+        int number = scanner.nextInt();
         return number;
     }
 
